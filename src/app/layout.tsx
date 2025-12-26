@@ -8,6 +8,7 @@ import { ReactQueryProvider } from "@/components/providers/react-query-provider"
 import { cn } from "@/lib/utils";
 
 import "./globals.css";
+import Script from "next/script";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -62,8 +63,8 @@ export default function RootLayout({
             </div>
           </ReactQueryProvider>
         </ThemeProvider>
-        <script src="https://pl28340292.effectivegatecpm.com/15/67/fa/1567fa1a56a0bf2bb588bbd6a5d3f69a.js"></script>
-        <script src="https://pl28340292.effectivegatecpm.com/15/67/fa/1567fa1a56a0bf2bb588bbd6a5d3f69a.js"></script>
+        <script src="https://pl28340292.effectivegatecpm.com/15/67/fa/1567fa1a56a0bf2bb588bbd6a5d3f69a.js"
+        />
       </body>
     </html>
   );
