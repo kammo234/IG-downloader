@@ -63,7 +63,9 @@ export default function RootLayout({
             </div>
           </ReactQueryProvider>
         </ThemeProvider>
-        <script src="https://pl28340292.effectivegatecpm.com/15/67/fa/1567fa1a56a0bf2bb588bbd6a5d3f69a.js"
+        <Script
+          src="https://pl28340292.effectivegatecpm.com/15/67/fa/1567fa1a56a0bf2bb588bbd6a5d3f69a.js"
+          strategy="afterInteractive"
         />
       </body>
     </html>
