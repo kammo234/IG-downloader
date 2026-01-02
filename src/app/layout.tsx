@@ -33,6 +33,11 @@ export default function RootLayout({
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
+      <Script
+          src="https://pl28387642.effectivegatecpm.com/544f1a4f41dc92123f570672eddffbf0/invoke.js"
+          strategy="afterInteractive"
+          data-cfasync="false"
+        />
       <body
         className={cn(
           fontSans.variable,
@@ -63,10 +68,6 @@ export default function RootLayout({
             </div>
           </ReactQueryProvider>
         </ThemeProvider>
-        <Script
-          src="https://pl28340292.effectivegatecpm.com/15/67/fa/1567fa1a56a0bf2bb588bbd6a5d3f69a.js"
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   );
