@@ -1,6 +1,5 @@
 import { InstagramVideoForm } from "@/features/instagram/components/form";
 import { Montserrat, Inter } from "next/font/google";
-import AdsterraNative from "@/components/AdsterraNative";
 
 // Fonts
 const fontHeading = Montserrat({ subsets: ["latin"], weight: "700", variable: "--font-heading" });
@@ -9,7 +8,6 @@ const fontText = Inter({ subsets: ["latin"], weight: "400", variable: "--font-te
 export default function HomePage() {
   return (
     <div className="flex flex-col py-12 px-4 sm:px-6 md:px-8">
-      <AdsterraNative />
       {/* Stylish Gradient Heading */}
       <h1
         className={`mb-10 text-center text-5xl sm:text-6xl tracking-tight
@@ -26,8 +24,6 @@ export default function HomePage() {
         >
           Download Instagram Reels and videos easily with just a link. Fast, reliable, and free for everyone.
         </p>
-        <AdsterraNative />
-        <AdsterraNative />
 
         {/* Downloader Form */}
         <InstagramVideoForm />
