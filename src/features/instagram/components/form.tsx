@@ -7,6 +7,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 
 import { Download, Loader2 } from "lucide-react";
+import AdsterraNative from "@/components/AdsterraNative";
 
 import { Button } from "@/components/ui/button";
 import {
@@ -103,6 +104,7 @@ export function InstagramVideoForm() {
           Save as video.
         </p>
       </form>
+      <AdsterraNative />
     </Form>
   );
 }
