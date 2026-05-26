@@ -1,5 +1,9 @@
 import { InstagramVideoForm } from "@/features/instagram/components/form";
 import { Montserrat, Inter } from "next/font/google";
+import SeoContent from "@/components/seo/SeoContent";
+import Features from "@/components/seo/Features";
+import HowToUse from "@/components/seo/HowToUse";
+import FAQ from "@/components/seo/FAQ";
 
 // Fonts
 const fontHeading = Montserrat({ subsets: ["latin"], weight: "700", variable: "--font-heading" });
@@ -27,6 +31,10 @@ export default function HomePage() {
 
         {/* Downloader Form */}
         <InstagramVideoForm />
+        <SeoContent />
+      <Features />
+      <HowToUse />
+      <FAQ />
       </section>
     </div>
   );
